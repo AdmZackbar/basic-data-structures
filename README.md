@@ -1,5 +1,6 @@
 Most of these data structures were create for CS201(Data Structures and Algorithms), while some were created later.
 All are written in C and have their own header files. All includes are either standard or build on other structures(e.g. stack is build on the dynamic array).
+Each structure stores values as a void pointer. Thus, to use this system properly, the pointer to a struct containing your information must be passed in.
 Below are some overview specifications of the included structures. More information can be found in the header and source files.
 
 Dynamic array
